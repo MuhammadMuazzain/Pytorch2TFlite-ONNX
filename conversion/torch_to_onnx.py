@@ -5,9 +5,6 @@ img_size = (640, 640)
 batch_size = 1
 onnx_model_path = 'model.onnx'
 
-# model = mobilenet_v2()
-# model.eval()
-
 model = mobilenet_v2()
 model.eval()
 
