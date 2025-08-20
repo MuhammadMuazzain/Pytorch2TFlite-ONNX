@@ -12,6 +12,7 @@ ONNX model can be exported with both tracing or scripting.
 ## Tracing Export
 
 ```python
+# import torch
 import torch
 
 class LoopModel(torch.nn.Module):
