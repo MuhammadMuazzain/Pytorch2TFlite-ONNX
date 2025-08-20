@@ -18,6 +18,8 @@ torch.onnx.export(
     onnx_model_path,
     verbose=False,
     input_names=['input'],
+    # output_names=['output'],
+    # opset_version=12
     output_names=['output'],
     opset_version=12
 )
