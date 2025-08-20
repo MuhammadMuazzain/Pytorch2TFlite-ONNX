@@ -19,5 +19,10 @@ interpreter.invoke()
 
 # get_tensor() returns a copy of the tensor data
 # use tensor() in order to get a pointer to the tensor
+# output_data = interpreter.get_tensor(output_details[0]['index'])
+# print(output_data)
+
+
+
 output_data = interpreter.get_tensor(output_details[0]['index'])
 print(output_data)
