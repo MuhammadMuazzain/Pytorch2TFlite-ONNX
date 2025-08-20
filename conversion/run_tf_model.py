@@ -2,6 +2,8 @@ import tensorflow as tf
 
 tf_model_path = 'model_tf'
 
+# model = tf.saved_model.load(tf_model_path)
+# model.trainable = False
 model = tf.saved_model.load(tf_model_path)
 model.trainable = False
 
